@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	background: pink;
@@ -66,12 +66,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	padding: 0 74px;
+}
+
+/* ------------------------------NAV BAR------------------------------ */
 nav {
 	display: inline-block;
-	padding-top: 14px;
 	width: 100%;
-
-	padding: 0px 74px;
 }
 
 nav a {
@@ -86,4 +88,32 @@ nav a {
 .logo {
 	position: absolute;
 	padding: 26px 0 0 32px;
+}
+
+/* ------------------------------HEADER------------------------------ */
+header {
+	text-align: center;
+	width: 50%;
+	padding: 140px 0 0 50px;
+}
+
+h1 {
+	font-size: 72px;
+	letter-spacing: 5px;
+	margin-bottom: 33px;
+}
+
+btn {
+	padding: 4px 43px;
+	letter-spacing: 1px;
+	border: 1px solid black;
+}
+
+.header-img {
+	position: absolute;
+	padding: 82px 58px 0 58px;
+}
+
+hr {
+	margin-top: 128px;
 }
