@@ -29,8 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	background: pink;
 	line-height: 1;
-	margin: 0 248px;
+	margin: 0 248px; /* Setting for display image alignment */
 }
 ol, ul {
 	list-style: none;
@@ -66,11 +67,23 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 nav {
+	display: inline-block;
+	padding-top: 14px;
 	width: 100%;
+
+	padding: 0px 74px;
 }
 
 nav a {
+	display: inherit;
 	text-decoration: none;
 	color: grey;
-	margin: 10px;
+	margin-right: 52px;
+	width: 55px;
+	padding-top: 4%;
+}
+
+.logo {
+	position: absolute;
+	padding: 26px 0 0 32px;
 }
